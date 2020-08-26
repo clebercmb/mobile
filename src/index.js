@@ -46,9 +46,9 @@ export default function App() {
                         <Text style={styles.repositorie}>{repositorie.title}</Text>       
                     )}
                 />
-                <TouchableOpacity activeOpacity={0.6} style={styles.button} onPress={handleAddRepositorie}>
-                        <Text style={styles.buttonText}>Adicionar projeto</Text>
-                </TouchableOpacity>
+                    <TouchableOpacity activeOpacity={0.6} style={styles.button} onPress={handleAddRepositorie}>
+                            <Text style={styles.buttonText}>Adicionar projeto</Text>
+                    </TouchableOpacity>
             </SafeAreaView>               
         </>
     );
